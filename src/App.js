@@ -105,11 +105,12 @@ const App = () => {
         />
       )}
 
-      <Loader loading={loading} />
-      <Button
-        onButtonClick={handleButtonLoadMoreClick}
-        shouldRenderBtn={shouldRenderBtn}
-      />
+      {Loader && (
+        <Button
+          onButtonClick={handleButtonLoadMoreClick}
+          shouldRenderBtn={shouldRenderBtn}
+        />
+      )}
     </div>
   );
 };
