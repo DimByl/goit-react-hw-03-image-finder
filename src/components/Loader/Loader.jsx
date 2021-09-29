@@ -1,11 +1,11 @@
 import React from 'react';
 import "react-loader-spinner/dist/loader/css/react-spinner-loader.css";
 import LoaderSpinner from "react-loader-spinner";
-import './Loader.scss'
+import styles from './Loader.scss';
 
 export default function Loader () {
     return (
-        <div className="Loader">
+        <div className={styles.Loader}>
             <LoaderSpinner
                 type="Puff"
                 color="#00BFFF"
