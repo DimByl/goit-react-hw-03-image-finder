@@ -28,7 +28,6 @@ const Searchbar = ({ onSubmit }) => {
           className={styles.SearchForm__input}
           type="text"
           autoComplete="off"
-          autoFocus
           placeholder="Search images and photos"
           value={query}
           onChange={handleChange}

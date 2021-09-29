@@ -10,4 +10,5 @@ const fetchGetImages = ({ searchQuery = "", currentPage = 1, pageSize = 12 }) =>
     )
     .then((responce) => responce.data);
 
+// eslint-disable-next-line import/no-anonymous-default-export
 export default { fetchGetImages };
